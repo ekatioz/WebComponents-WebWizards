@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="AgentSmith.js"></script>
+    <title>WebWizards WebComponents</title>
+</head>
+
+<body>
+    <template id="greeting">
+        <link rel="stylesheet" href="matrix.css">
+        <p>
+            Herzlich willkommen zurück, 
+            <slot name="name">Name hier einfügen</slot>.
+            Wir haben Sie vermisst!
+        </p>
+    </template>
+
+    <agent-smith>
+        <span slot="name">Mr. Anderson</span>
+    </agent-smith>
+
+    <agent-smith>
+        <span slot="name">Morpheus</span>
+    </agent-smith>
+
+    <agent-smith>
+        <span slot="name">Trinity</span>
+    </agent-smith>
+</body>
+
+</html>
