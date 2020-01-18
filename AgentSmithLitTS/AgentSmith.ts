@@ -1,9 +1,8 @@
-import { html, css, LitElement } from "lit-element";
+import { html, css, LitElement, property, customElement } from "lit-element";
 
+@customElement("agent-smith")
 class AgentSmith extends LitElement {
-    static get properties() {
-        return { name: { type: String } };
-    }
+    @property() name: String;
 
     static get styles() {
         return css`
@@ -25,5 +24,3 @@ class AgentSmith extends LitElement {
         </p>`;
     }
 }
-
-customElements.define("agent-smith", AgentSmith);
