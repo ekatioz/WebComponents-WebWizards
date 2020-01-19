@@ -1,0 +1,24 @@
+{
+  "name": "webwizards",
+  "version": "1.0.0",
+  "description": "Hier sind alle Codebeispiele aus meinem Talk beim [WebWizards](https://www.meetup.com/de-DE/webwizards/) Meetup in Münster.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekatioz/WebComponents-WebWizards.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekatioz/WebComponents-WebWizards/issues"
+  },
+  "homepage": "https://github.com/ekatioz/WebComponents-WebWizards#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0"
+  }
+}

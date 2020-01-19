@@ -1,1 +1,1 @@
-import "./AgentSmith";
+import './AgentSmith';

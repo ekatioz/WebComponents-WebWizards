@@ -1,12 +1,12 @@
-import { html, css, LitElement } from "lit-element";
+import { html, css, LitElement } from 'lit-element';
 
 class AgentSmith extends LitElement {
-    static get properties() {
-        return { name: { type: String } };
-    }
+  static get properties() {
+    return { name: { type: String } };
+  }
 
-    static get styles() {
-        return css`
+  static get styles() {
+    return css`
             p{
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: 5em;
@@ -15,15 +15,15 @@ class AgentSmith extends LitElement {
                 padding: 15px;
             }
         `;
-    }
+  }
 
-    render() {
-        return html`
+  render() {
+    return html`
         <p>
             Herzlich willkommen zurück, ${this.name}.
             Wir haben Sie vermisst!
         </p>`;
-    }
+  }
 }
 
-customElements.define("agent-smith", AgentSmith);
+customElements.define('agent-smith', AgentSmith);
