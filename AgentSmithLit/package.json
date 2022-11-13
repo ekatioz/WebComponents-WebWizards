@@ -15,7 +15,7 @@
     "copy-webpack-plugin": "^5.1.1",
     "http-server": "^0.12.1",
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "@webcomponents/webcomponentsjs": "^2.4.1",
